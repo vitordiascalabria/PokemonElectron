@@ -1,0 +1,20 @@
+.light-theme {
+  background-size: cover;
+  background-position: center;
+  color: #000;
+}
+
+.dark-theme {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.light-theme, .dark-theme {
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

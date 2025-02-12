@@ -1,0 +1,19 @@
+{
+  "name": "projeto-poke",
+  "version": "1.0.0",
+  "description": "Aplicação em Electron + React consumindo a PokeAPI",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron electron/main.js",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build && electron-builder",
+    "package": "electron-packager . projeto-poke --platform=win32 --arch=x64 --out=dist"
+  },
+  "devDependencies": {
+    "electron": "^34.1.1"
+  },
+  "dependencies": {
+    "electron-builder": "^24.6.0",
+    "electron-packager": "^17.1.1"
+  }
+}
